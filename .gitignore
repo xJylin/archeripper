@@ -5,3 +5,9 @@ x64
 *.suo
 *.sdf
 *.opensdf
+/.vs/archeripper/config
+/.vs/archeripper/v17
+/.vs
+/RCa23392
+/ArcheRipper.vcxproj.user
+/ArcheRipper.aps

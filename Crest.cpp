@@ -1,6 +1,6 @@
 #include "StdAfx.h"
 
-const TCHAR CrestSource::DIRECTORY[] = TEXT("C:\\ArcheAge\\Documents\\USER\\UCC\\down");
+const TCHAR CrestSource::DIRECTORY[] = TEXT("C:\\KakaoGames\\ArcheAge\\UCC\\down");
 const TCHAR CrestSource::WILDCARD[] = TEXT("*.sst");
 
 CrestSource::CrestSource(LPCTSTR path)

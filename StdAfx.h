@@ -15,7 +15,7 @@
 #include <wincodec.h>
 #include <atlcomcli.h>
 #include <tchar.h>
-
+#include <string>
 #include <functional>
 #include <memory>
 #include <vector>
@@ -25,9 +25,9 @@
 using namespace std;
 
 #ifdef _UNICODE
-typedef wstring tstring;
+typedef std::wstring tstring;
 #else
-typedef string tstring;
+typedef std::string tstring;
 #endif
 
 extern "C" IMAGE_DOS_HEADER __ImageBase;
